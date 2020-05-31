@@ -7,7 +7,7 @@ yguess = random.randint(1, take)
 for n in range(3):
     mguess = int(input("Enter your guess here: "))
 
-    if mguess = yguess:
+    if mguess == yguess:
         print("Kuddos!! your guess is right!!")
 
 
