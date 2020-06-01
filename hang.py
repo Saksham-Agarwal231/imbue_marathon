@@ -1,6 +1,6 @@
 import random
 
-print("You have six chnaces... Try to guess the word!! You don't lose a chance if your word is right!!\n\n")
+print("You have six chances... Try to guess the word!! You don't lose a chance if your word is right!!\n\n")
 words = ["hello", "bye", "dog", "python", "life", "happy"]
 
 hmm = random.randint(0,len(words)-1)
