@@ -1,5 +1,6 @@
 import random
 
+print("You have six chnaces... Try to guess the word!! You don't lose a chance if your word is right!!\n\n")
 words = ["hello", "bye", "dog", "python", "life", "happy"]
 
 hmm = random.randint(0,len(words)-1)
@@ -18,18 +19,26 @@ while gg == 0:
     for n in range(0,len(word)):
         if take == word[n]:
            alt[n] = word[n]
-           counter = counter + 1
+           break
+         
+    else:
+        counter = counter + 1
+    gggg = " ".join(alt)
+    ggg = "".join(alt)
+    print(gggg)
 
-    print(alt)
-
-    if counter == len(word):
+    if ggg == word:
         break
-    
+
+    elif counter == 6:
+        print("\n\nYou lose!!!")
+        break
+        
+
+            
 
         
 
-    
-
-    
-    
-    
+        
+        
+        
